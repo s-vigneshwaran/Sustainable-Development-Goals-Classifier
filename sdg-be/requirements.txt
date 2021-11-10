@@ -1,0 +1,5 @@
+numpy
+PyPDF2
+typing
+flask
+flask-cors
