@@ -28,7 +28,7 @@ Two versions of the app has been deployed on the web. One being the REST Server 
 
 ### Web Application
 
-There is nothing much to the Web Application as it is initutive. You can access it [here](https://sdg-classifier.web.app/).
+There is nothing much to the Web Application as it is initutive. You can access it [here](https://sdg-classifier.web.app/). `sdg-classifier.web.app`
 
 ## How it works?
 
