@@ -25,22 +25,22 @@ name,location,start,end
 `FOS_FLAG` If set to 1, then additional output file with the details of the field of study is generated. Anything else does nothing.
 
 ### Examples
-```
-python3 application.py 0 0
+```sh
+$ python3 application.py 0 0
 ```
 > Produces single output file
 
-```
-python3 application.py 1 0
+```sh
+$ python3 application.py 1 0
 ```
 > Produces multiple output files
 
-```
-python3 application.py 0 1
+```sh
+$ python3 application.py 0 1
 ```
 > Produces single output file along with another fos file
-```
-python3 application.py 1 1
+```sh
+$ python3 application.py 1 1
 ```
 > Produces multiple output files along with multiple fos files
 
