@@ -1,24 +1,39 @@
-# sdg-fe
+# Sustainable Development Goals - Front End
 
-## Project setup
-```
-npm install
-```
+## Installation
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Install the dependencies 
 
-### Compiles and minifies for production
+```sh
+$ npm i
 ```
-npm run build
+### To run the developmental server
+You can run this if you have installed Vue JS globally [$ npm i -g @vue/cli]
+```sh
+$ npm run serve
 ```
+or run npx command
 
-### Lints and fixes files
-```
-npm run lint
+```sh
+$ npx vue-cli-service serve
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Tech
+
+Sustainable Development Goal - FE uses a number of open source projects to work properly:
+
+* Vue3 - The Progressive JavaScript Framework.
+* axios - Promise based HTTP client for the browser and node.js
+* vue3-popper - A popover component for Vue 3
+* vue3-loading-overlay - Vue.js component for full screen loading indicator
+
+## How it works?
+
+SDG-FE makes REST API calls to the SDG-BE and displays the result in realtime.
+
+> Live demo available at : `sdg-classifier.web.app`
+
+License
+----
+
+MIT

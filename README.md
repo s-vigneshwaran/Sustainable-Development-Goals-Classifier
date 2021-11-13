@@ -17,7 +17,7 @@ Two versions of the app has been deployed on the web. One being the REST Server 
         "text": "TEXT TO CLASSIFY"
     }
     ```
-    * `/classifyPDF` - This api can used to classify PDF text. Unlinke the `/classify` api, it takes Multi-part/formdata as input. It only works with PDF and does not support any other format
+    * `/classifyPDF` - This api can used to classify PDF text. Unlinke the `/classify` api, it takes Multi-part/formdata as input. It only works with PDF and does not support any other format. `start` and `end` refers to the page range.
     ```
     {
         "start": 20,
@@ -29,6 +29,11 @@ Two versions of the app has been deployed on the web. One being the REST Server 
 ### Web Application
 
 There is nothing much to the Web Application as it is initutive. You can access it [here](https://sdg-classifier.web.app/). `sdg-classifier.web.app`
+
+## Local Machine Script
+
+In order to facilitate processing of multiple PDFs at once, you could leverage the functionalities of the `sdg-script` tool. For more details, open the sub-directory and read the README.md
+
 
 ## How it works?
 
