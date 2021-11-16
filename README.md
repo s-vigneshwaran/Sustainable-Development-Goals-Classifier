@@ -48,6 +48,8 @@ In order to facilitate processing of multiple PDFs at once, you could leverage t
 
 The data is taken from the OSDG.ai's [osdg-tool](https://github.com/osdg-ai/osdg-tool/tree/main) repository. The idea of using a NGram based approach is also taken from the project.
 
+> You need not visit the OSDG repository to find the data, as a copy of the data is used in this repo.
+
 License
 ----
 
