@@ -35,10 +35,18 @@ There is nothing much to the Web Application as it is initutive. You can access 
 In order to facilitate processing of multiple PDFs at once, you could leverage the functionalities of the `sdg-script` tool. For more details, open the sub-directory and read the README.md
 
 
-## How it works?
+# How it works?
 
-> To be updated
+* Given a text, the application extracts all possible grams(set by implementer) of words from it.
+* Each and every gram is iterated on the existing Fields Of Study and if it exists the ids of the field of study and its frequency is noted
+* Now that we have the Fields of Study and Frequencies, we can start mapping the respective Sustainable Development Goal. The mapping is done with respect to the existing data as well.
+* All the frequencies of the SDG is added and the sum is the relevancy score of that particular SDG.
 
+> For the implementaion details, take a look at the notebook
+
+## Data Availabilty and Reference
+
+The data is taken from the OSDG.ai's [osdg-tool](https://github.com/osdg-ai/osdg-tool/tree/main) repository. The idea of using a NGram based approach is also taken from the project.
 
 License
 ----

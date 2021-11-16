@@ -26,21 +26,21 @@ name,location,start,end
 
 ### Examples
 ```sh
-$ python3 application.py 0 0
+$ python3 application.py input.csv 0 0
 ```
 > Produces single output file
 
 ```sh
-$ python3 application.py 1 0
+$ python3 application.py input.csv 1 0
 ```
 > Produces multiple output files
 
 ```sh
-$ python3 application.py 0 1
+$ python3 application.py input.csv 0 1
 ```
 > Produces single output file along with another fos file
 ```sh
-$ python3 application.py 1 1
+$ python3 application.py input.csv 1 1
 ```
 > Produces multiple output files along with multiple fos files
 
