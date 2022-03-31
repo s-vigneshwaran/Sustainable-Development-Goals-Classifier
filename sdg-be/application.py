@@ -1,4 +1,5 @@
 from flask import Flask, jsonify, request
+from flask_cors import CORS, cross_origin
 from ngram_matcher import NgramMatcher
 import uuid
 import PyPDF2
@@ -88,6 +89,8 @@ def pdf_to_text(location, start, end):
 	return text
 	
 app = Flask('SDG Classifier')
+cors = CORS(app)
+app.config['CORS_HEADERS'] = 'Content-Type'
 
 @app.route('/classify', methods=['POST'])
 def classifyText():
